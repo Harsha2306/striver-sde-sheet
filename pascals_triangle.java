@@ -3,7 +3,7 @@ Q) Given an integer numRows, return the first numRows of Pascal's
   triangle.
 A1) I have done as the question says
     TC - O(N2) SC - O(N2)
- */
+*/
 
 import java.util.ArrayList;
 import java.util.List;
