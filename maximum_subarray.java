@@ -2,6 +2,8 @@
  Q) Given an integer array nums, find the subarray with 
     the largest sum, and return its sum.
 A1) Kadane's Algo
+
+    TC - O(N)
  */
 
 public class maximum_subarray {
