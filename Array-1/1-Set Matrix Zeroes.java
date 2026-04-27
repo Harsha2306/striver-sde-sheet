@@ -2,6 +2,7 @@
  * Optimize space to O(1) by using the first row and column as markers.
  * Use two flags to track if the first row/column originally contained any zeros,
  * since they get overwritten when marking other rows/columns for zeroing.
+ * Time complexity: O(m * n), Space complexity: O(1)
  */
 
 class Solution {
