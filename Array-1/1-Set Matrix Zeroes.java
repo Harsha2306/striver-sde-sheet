@@ -1,3 +1,9 @@
+/**
+ * Optimize space to O(1) by using the first row and column as markers.
+ * Use two flags to track if the first row/column originally contained any zeros,
+ * since they get overwritten when marking other rows/columns for zeroing.
+ */
+
 class Solution {
     public void setZeroes(int[][] matrix) {
         Set<Integer> rs = new HashSet<>(), cs = new HashSet<>();
